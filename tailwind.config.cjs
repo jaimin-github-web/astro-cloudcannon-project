@@ -22,7 +22,8 @@ module.exports = {
           'green': '#34C565',
           'highlight-green': '#3ED973',
           'yellow': '#F6C94F',   
-          'yellow21': '#F6C94F',          
+          'yellow21': '#F6C94F',
+          'pink': '#F6C94F',          
         },        
       },
       fontFamily: {
