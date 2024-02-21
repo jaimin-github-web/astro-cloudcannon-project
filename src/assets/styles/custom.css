@@ -1,2 +1,4 @@
 .top-bar ul li a {transition: 0.5s;}
 .top-bar ul li a:hover {color: #0183B3;}
+header:not(.scroll) nav > ul > li { color: var(--aw-color-bg-page);}
+header:not(.scroll) img { filter: brightness(0) invert(1);}

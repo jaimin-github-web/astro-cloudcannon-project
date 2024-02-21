@@ -24,9 +24,9 @@ const {
 } = Astro.props;
 ---
 
-<section class="relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
+<section class="relative bg-hacl-blue md:-mt-[95px] not-prose" {...id ? { id } : {}}>
   <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
+  <!-- <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
     <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
     <div class="py-12 md:py-20">
       <div class="text-center pb-10 md:pb-16 max-w-5xl mx-auto">
@@ -88,5 +88,76 @@ const {
         }
       </div>
     </div>
+  </div> -->
+
+<!-- ====== Hero Section Start -->
+<div class="relative">
+    <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
+  <div class="py-12 md:py-20">
+    <div class="container mx-auto max-w-[1180px]">
+        <div class="flex flex-wrap items-center -mx-4">
+          <div class="w-full px-4 lg:w-6/12">
+              <div class="hero-content">
+                <h1 class="mb-9 text-4xl font-medium !leading-[1.208] text-white dark:text-white sm:text-[42px] lg:text-[40px] xl:text-[64px]" >A Beacon of Hvealth</h1>
+                <p class="mb-9 max-w-[410px] text-2xl text-white dark:text-dark-6">Health Care LA, IPA brings access to quality care to Los Angeles County residents who need it most.</p>
+                <ul class="flex flex-wrap items-center">
+                    <li>
+                      <a href="javascript:void(0)" class="inline-flex items-center justify-center px-6 py-3 text-lg font-medium text-center text-white rounded bg-hacl-green hover:bg-hacl-highlight-green shadow-sm lg:px-8" >Learn More</a>
+                    </li>
+                    </ul>              
+              </div>
+          </div>
+          <div class="w-full px-4 lg:w-6/12">
+              <div class="lg:ml-auto lg:text-right">
+                <div class="relative z-10 inline-block pt-11 lg:pt-0">
+                    <img
+                      src="https://cdn.tailgrids.com/2.0/image/marketing/images/hero/hero-image-01.png"
+                      alt="hero"
+                      class="max-w-full lg:ml-auto"
+                      />
+                    <span class="absolute -left-8 -bottom-8 z-[-1]">
+                      <svg
+                          width="93"
+                          height="93"
+                          viewBox="0 0 93 93"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                          >
+                          <circle cx="2.5" cy="2.5" r="2.5" fill="#3056D3" />
+                          <circle cx="2.5" cy="24.5" r="2.5" fill="#3056D3" />
+                          <circle cx="2.5" cy="46.5" r="2.5" fill="#3056D3" />
+                          <circle cx="2.5" cy="68.5" r="2.5" fill="#3056D3" />
+                          <circle cx="2.5" cy="90.5" r="2.5" fill="#3056D3" />
+                          <circle cx="24.5" cy="2.5" r="2.5" fill="#3056D3" />
+                          <circle cx="24.5" cy="24.5" r="2.5" fill="#3056D3" />
+                          <circle cx="24.5" cy="46.5" r="2.5" fill="#3056D3" />
+                          <circle cx="24.5" cy="68.5" r="2.5" fill="#3056D3" />
+                          <circle cx="24.5" cy="90.5" r="2.5" fill="#3056D3" />
+                          <circle cx="46.5" cy="2.5" r="2.5" fill="#3056D3" />
+                          <circle cx="46.5" cy="24.5" r="2.5" fill="#3056D3" />
+                          <circle cx="46.5" cy="46.5" r="2.5" fill="#3056D3" />
+                          <circle cx="46.5" cy="68.5" r="2.5" fill="#3056D3" />
+                          <circle cx="46.5" cy="90.5" r="2.5" fill="#3056D3" />
+                          <circle cx="68.5" cy="2.5" r="2.5" fill="#3056D3" />
+                          <circle cx="68.5" cy="24.5" r="2.5" fill="#3056D3" />
+                          <circle cx="68.5" cy="46.5" r="2.5" fill="#3056D3" />
+                          <circle cx="68.5" cy="68.5" r="2.5" fill="#3056D3" />
+                          <circle cx="68.5" cy="90.5" r="2.5" fill="#3056D3" />
+                          <circle cx="90.5" cy="2.5" r="2.5" fill="#3056D3" />
+                          <circle cx="90.5" cy="24.5" r="2.5" fill="#3056D3" />
+                          <circle cx="90.5" cy="46.5" r="2.5" fill="#3056D3" />
+                          <circle cx="90.5" cy="68.5" r="2.5" fill="#3056D3" />
+                          <circle cx="90.5" cy="90.5" r="2.5" fill="#3056D3" />
+                      </svg>
+                    </span>
+                </div>
+              </div>
+          </div>
+        </div>
+    </div>
   </div>
+</div>
+
+<!-- ====== Hero Section End -->
+  
 </section>

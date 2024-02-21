@@ -11,6 +11,18 @@ module.exports = {
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
+        'hacl': {
+          'dark-blue': '#014158',
+          'med-blue': '#039CD5',
+          'blue': '#0183B3',
+          'sky-blue': '#E1F9FF',
+          'trans-blue': '#EEFCFF',
+          'trans-blue1': '#EBF9F0',
+          'cyan': '#00C4D1',
+          'green': '#34C565',
+          'highlight-green': '#3ED973',
+          'yellow': '#F6C94F',          
+        },        
       },
       fontFamily: {
         sans: ['var(--aw-font-sans)', ...defaultTheme.fontFamily.sans],
